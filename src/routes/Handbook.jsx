@@ -40,7 +40,7 @@ const Handbook = () => {
         setIsBotTyping(false); // Turn off bot typing status
       }, 1500); // Delay of 1.5 seconds to simulate typing
     } catch (error) {
-      console.error("Error fetching policy:", error);
+      console.error("Error fetching policy");
       const errorMessage = {
         sender: "bot",
         text: "Sorry, something went wrong. Please try again later.",
