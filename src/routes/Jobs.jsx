@@ -39,7 +39,7 @@ const Jobs = () => {
             : applicantResponse.data[0]
         );
       } catch (error) {
-        console.error("Error fetching applicant data:");
+        console.error("Error fetching applicant data:", error);
       }
     };
 
@@ -58,7 +58,7 @@ const Jobs = () => {
 
       setAnalysisResults(resultsArray);
     } catch (error) {
-      console.error("Error fetching analysis results:");
+      console.error("Error fetching analysis results:", error);
     } finally {
       setLoadingAnalysis(false);
     }
