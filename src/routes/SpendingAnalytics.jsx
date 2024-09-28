@@ -166,8 +166,10 @@ const SpendingAnalytics = () => {
     <Container fluid className="mt-5">
       <Row className="mb-4">
         <Col>
-          <h2>Spending Analytics Dashboard for Finance Department</h2>
-          <p>
+          <h2 style={{ textAlign: "center" }}>
+            Spending Analytics Dashboard for Finance Department
+          </h2>
+          <p style={{ textAlign: "center" }}>
             This dashboard provides insights into the company's spending
             patterns across different departments and categories. It compares
             projected vs. actual spending, analyzes department-wise allocations,
