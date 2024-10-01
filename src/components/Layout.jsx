@@ -31,12 +31,12 @@ const Layout = () => {
                 id="hr-dropdown"
                 className="me-3"
               >
-                {/* <NavDropdown.Item as={Link} to="/jobs">
+                <NavDropdown.Item as={Link} to="/jobs">
                   Jobs
-                </NavDropdown.Item> */}
-                {/* <NavDropdown.Item as={Link} to="/handbook">
+                </NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/handbook">
                   Employee Handbook
-                </NavDropdown.Item> */}
+                </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/employeeanalytics">
                   Employee Analytics
                 </NavDropdown.Item>
@@ -47,9 +47,9 @@ const Layout = () => {
 
               {/* Finance Dropdown */}
               <NavDropdown title="Finance" id="hr-dropdown" className="me-3">
-                {/* <NavDropdown.Item as={Link} to="/fraud">
+                <NavDropdown.Item as={Link} to="/fraud">
                   Fraud Detection
-                </NavDropdown.Item> */}
+                </NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/predictiveanalytics">
                   Predictive Analytics
                 </NavDropdown.Item>
