@@ -47,9 +47,9 @@ const Layout = () => {
 
               {/* Finance Dropdown */}
               <NavDropdown title="Finance" id="hr-dropdown" className="me-3">
-                <NavDropdown.Item as={Link} to="/fraud">
+                {/* <NavDropdown.Item as={Link} to="/fraud">
                   Fraud Detection
-                </NavDropdown.Item>
+                </NavDropdown.Item> */}
                 <NavDropdown.Item as={Link} to="/predictiveanalytics">
                   Predictive Analytics
                 </NavDropdown.Item>
